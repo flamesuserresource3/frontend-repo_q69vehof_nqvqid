@@ -1,8 +1,10 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
 import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,8 +13,10 @@ function App() {
       <NavBar />
       <main className="pt-14">
         <Hero />
-        <Projects />
         <About />
+        <Projects />
+        <Skills />
+        <Contact />
       </main>
       <Footer />
     </div>
